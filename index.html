@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página CECYTEM</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Examen Segundo parcial</h1>
+    <nav>
+      <ul class="menu">
+        <li><a href="#" data-section="inicio" class="active">Inicio</a></li>
+        <li><a href="#" data-section="galeria">Galería</a></li>
+        <li><a href="#" data-section="video">Video</a></li>
+        <li><a href="#" data-section="contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección de Inicio -->
+  <section id="inicio" class="contenido visible">
+    <h2>Bienvenidos</h2>
+    <p> Colegio de Estudios Cientificos y Tecnologicos del Estado de México (CECYTEM) Plantel Chimalhuacan 2.</p>
+    <p>Misión: Impartir educación maedia superior de calidad, en su modalidad de bachillerato tecnológico bivalmente, con el objetivode que los egresados cuenten con educación tecnologica terminal que les permita incorporarse a una actividad productiva, o bien, continuar sus estudios de nivel superior.</p>
+    <p>Visión: Ser la mejor opción de educación media superior en su modalidad de bachillerato tecnológico bivalmente en el Sistema Nacional de los CECYTE's, asi como en el Estado de México</p>
+
+  </section>
+
+   <!-- Sección de Galería -->
+  <section id="galeria" class="contenido">
+    <h2>Galería de Imágenes Conceptuales</h2>
+    <div class="galeria">
+      <img src="multimedia/plantel1.jfif" alt="Imagen 1">
+      <img src="multimedia/plantel2.jfif" alt="Imagen 2">
+      <img src="multimedia/plantel3.jfif" alt="Imagen 3">
+      <img src="multimedia/plantel4.png" alt="Imagen 4">
+      <img src="multimedia/plantel5.jfif" alt="Imagen 5">
+      <img src="multimedia/plantel6.jfif" alt="Imagen 6">
+      <img src="multimedia/plantel7.jfif" alt="Imagen 7">
+      <img src="multimedia/plantel8.jfif" alt="Imagen 8">
+    </div>
+  </section>
+
+  <!-- Sección de Videos -->
+  <section id="video" class="contenido">
+    <h2>Galeria</h2>
+    <div class="videos">
+      <video src="multimedia/patito.mp4" controls></video>
+      <video src="multimedia/gatito.mp4" controls></video>
+      <video src="multimedia/ardillita.mp4" controls></video>
+
+  </section>
+
+  
+   <!-- Sección de Contacto -->
+  <section id="contacto" class="contenido">
+    <h1>Contacto</h1>
+   <form class="formulario"></form>
+    <label for="nombre">Nombre:</label>
+    <input type="text" name="nombre" placeholder="Tu nombre">
+    <label for="apellido">Apellidos:</label>
+    <input type="text" name="apellido" placeholder="Tus apellidos">
+    <label for="carrera tecnica">Carrera Tecnica:</label>
+    <input type="text" name="carrera" placeholder="Carrera">
+
+ 
+  <div class="tarjeta">
+   <title>Ubicación Maps</title>
+    <a href="multimedia/maps.htm" class="boton">Ir al mapa</a>
+          
+
+  </section>
+
+   <script src="script/script.js"></script>
+</body>
+</html>
